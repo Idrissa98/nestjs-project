@@ -9,4 +9,7 @@ export class QuizController {
     getAllQuiz() {
         return this.quizService.getAllQuiz();
     }
+
+    @Post()
+    createQuiz() {}
 }
